@@ -1,0 +1,79 @@
+#Ornek Ã¶zellikleri
+
+class VeriBilimci():
+    bildigi_diller=["r","python"]
+    bolum=''
+    sql="evet"
+    deneyim_yili=0
+    def __init__(self):
+        self.bildigi_diller=[]
+        self.bolum=""
+        
+ali=VeriBilimci()
+veli=VeriBilimci()
+
+ali.bildigi_diller
+
+
+#Ornek Metodlar
+
+class VeriBilimci():
+    calisanlar=[]
+    def __init__(self):
+        self.bildigi_diller =[]
+        self.bolum=""
+    def dil_ekle(self,yeni_dil):
+        self.bildigi_diller.append(yeni_dil)
+        
+        
+ali = VeriBilimci()
+ali.bildigi_diller
+
+ali.dil_ekle("R")
+
+
+#Miras YapÄ±larÄ±(inheritance)
+
+class Employess():
+    def __init__(self):
+        self.FirstName =""
+        self.LastName=""
+        self.Address=""
+        
+class DataScience(Employess):
+    def __init__(self):
+        self.Programming=""
+        
+class Marketing(Employess):
+    def __init__(self):
+        self.StoryTelling=""
+        
+veribilimci1 = DataScience()
+
+veribilimci1.FirstName="mert"
+veribilimci1.FirstName
+
+veribilimci2 = DataScience()
+veribilimci2.FirstName="Bilge"
+veribilimci2.FirstName
+
+
+
+class Employess_yeni():
+    def __init__(self,FirstName,LastName,Address):
+        self.FirstName=FirstName
+        self.LastName=LastName
+        self.Address=Address
+
+
+
+calisan = Employess_yeni("Bilge","karcak","mersin")
+calisan.FirstName
+
+
+
+
+
+
+
+
