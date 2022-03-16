@@ -2,7 +2,7 @@ from traceback import print_tb
 
 
 class Question:
-    def __init__(self,text,choices,answer) -> None:
+    def __init__(self,text,choices,answer):
         self.text= text
         self.choices = choices
         self.answer = answer
