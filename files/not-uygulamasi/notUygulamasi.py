@@ -40,7 +40,7 @@ def ortalamalari_oku():
 
 
 def not_gir():
-    ad = input('Öğrenci adı: ')
+    ad = input('Öğrenci adi: ')
     soyad = input('Öğrenci soyad: ')
     not1 = input('not 1: ')
     not2 = input('not 2: ')
@@ -62,7 +62,7 @@ def notlari_kayitet():
                 file2.write(i)
 
 while True:
-    islem = input('1- Notları Oku\n2- Not Gir\n3- Notları Kayıt Et\n4- Çıkış\n')
+    islem = input('1- Notlari Oku\n2- Not Gir\n3- Notlari Kayit Et\n4- Çikis\n')
 
     if islem == '1':
         ortalamalari_oku()
