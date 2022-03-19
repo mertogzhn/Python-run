@@ -88,6 +88,4 @@ while True:
             repository.identity()
         else:
             print('Geçersiz seçenek')
-
-            #deneme
             
