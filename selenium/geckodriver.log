@@ -229,3 +229,7 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:50320/devtools/browser/eb46c46e-c385-4052-a091-d73893d8f4fd
 1647948076416	Marionette	INFO	Listening on port 50327
 1647948076555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647948084627	Marionette	INFO	Stopped listening on port 50327
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
